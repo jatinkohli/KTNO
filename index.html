@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body onload="reload()">
     <title>KTNO</title>
 
-    <table>
+    <table class = "checkboxes">
         <tr>
             <td><label for="serial">Last serial digit even?</label>
             <td><input type="checkbox" id="serial" onchange="reload()">
@@ -26,41 +26,43 @@
         </tr>
     </table>
 
+    <br>
+
     <table class = "diagram">
         <tr>
             <td class = "box empty">
             <td class = "box empty">
-            <td class = "box">
+            <td class = "box">★
             <td class = "box empty" style = "border-left: 2px black solid">
-            <td class = "box">
+            <td class = "box">★
         </tr>
         <tr>
             <td class = "box empty">
-            <td class = "box">
-            <td class = "box">
+            <td class = "box red">
+            <td class = "box red">
             <td class = "box">
             <td class = "box">
         </tr>
         <tr>
-            <td class = "box">
-            <td class = "box">    
-            <td class = "box">
+            <td class = "box">🟡
+            <td class = "box red">
+            <td class = "box red">
             <td class = "box">
             <td class = "box">
         </tr>
         <tr>
             <td class = "box empty" style = "border-top: 2px black solid">
-            <td class = "box">
-            <td class = "box">
-            <td class = "box">
-            <td class = "box">
+            <td class = "box purple">
+            <td class = "box purple">
+            <td class = "box blue">
+            <td class = "box blue">
         </tr>
         <tr>
-            <td class = "box">
-            <td class = "box">
-            <td class = "box">
-            <td class = "box">
-            <td class = "box">
+            <td class = "box">🟡
+            <td class = "box purple">
+            <td class = "box purple">
+            <td class = "box blue">
+            <td class = "box blue">
         </tr>
     </table>
 </body>

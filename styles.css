@@ -1,3 +1,11 @@
+body {
+    background-color: gray;
+}
+
+table.checkboxes {
+    background-color: white;
+}
+
 table.diagram {
     border-spacing: 0;
     border-bottom: 2px black solid;
@@ -11,8 +19,24 @@ td.box {
     min-height: 100px;
     border-top: 2px black solid;
     border-left: 2px black solid;
+    font-size: 50;
+    text-align: center;
+    background-color: white;
 }
 
 td.empty {
     border: none;
+    background-color: gray;
+}
+
+td.red {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+td.blue {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+td.purple {
+    background-color: rgba(145, 24, 226, 0.8);
 }
