@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <title>KTNO</title>
+
+    <table>
+        <tr>
+            <td><label for="serial">Last serial digit even?</label>
+            <td><input type="checkbox" id="serial" onchange="reload()">
+        </tr>
+        <tr>
+            <td><label for="parallel">Has parallel port?</label>
+            <td><input type="checkbox" id="parallel" onchange="reload()">
+        </tr>
+        <tr>
+            <td><label for="batteries">Has 2+ batteries?</label>
+            <td><input type="checkbox" id="batteries" onchange="reload()">
+        </tr>
+    </table>
+
+    <table class = "diagram">
+        <tr>
+            <td class = "box empty">
+            <td class = "box empty bottom right">
+            <td class = "box top2 left right">
+            <td class = "box empty bottom left right" style = "border-left: 2px black solid">
+            <td class = "box top2 left right2">
+        </tr>
+        <tr>
+            <td class = "box empty">
+            <td class = "box top">
+            <td class = "box">
+            <td class = "box top">
+            <td class = "box right2">
+        </tr>
+        <tr>
+            <td class = "box">
+            <td class = "box">    
+            <td class = "box">
+            <td class = "box">
+            <td class = "box right2">
+        </tr>
+        <tr>
+            <td class = "box empty" style = "border-top: 2px black solid">
+            <td class = "box">
+            <td class = "box">
+            <td class = "box">
+            <td class = "box right2">
+        </tr>
+        <tr>
+            <td class = "box">
+            <td class = "box">
+            <td class = "box">
+            <td class = "box">
+            <td class = "box right2">
+        </tr>
+    </table>
+</body>
